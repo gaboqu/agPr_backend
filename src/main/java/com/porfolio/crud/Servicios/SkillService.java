@@ -35,7 +35,7 @@ public class SkillService {
         return skill;
     }
     
-    public Boolean deleteExp (Long id){
+    public Boolean deleteSkill (Long id){
         try{
             skRepository.deleteById(id);
             return true;
