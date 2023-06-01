@@ -4,5 +4,5 @@ COPY target/crud-0.0.1-SNAPSHOT.jar backendporfolio.jar
 
 ENTRYPOINT ["java","-jar","/backendporfolio.jar"]
 
-#EXPOSE 8080
+EXPOSE 8080
 
